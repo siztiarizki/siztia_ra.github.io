@@ -1,0 +1,120 @@
+@media (max-width: 580px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .sm_xs {
+    width: 100%;
+    margin: 0%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media (min-width: 580px) {
+  .md_xl {
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-right: 1%;
+  }
+}
+
+@media (max-width: 580px) {
+  .pad_res {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 580px) {
+  .hide2 {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .page_3_top {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex_page_3 {
+    flex: 30% 0 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .flex_page_3 {
+    flex: 40% 0 0;
+  }
+}
+
+.collapse.show {
+  z-index: 999;
+}
+
+.python:target ~ .python_list {
+  display: inline-block;
+}
+
+#python_list:target #python_list_2 {
+  visibility: visible;
+  z-index: 999;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+#python_list_2 {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#sql_list_2 {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#sql_list:target #sql_list_2 {
+  visibility: visible;
+  z-index: 999;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+#dashbord_list_2 {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#dashboard_list:target #dashbord_list_2 {
+  visibility: visible;
+  z-index: 999;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.row::-webkit-scrollbar-thumb {
+  background-color: #0a3e3c;
+  border-radius: 10px;
+}
+
+.row::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+
+.row::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(10,62,60);
+  border-radius: 10px;
+}
+
+#list_project:target #tools_list {
+  z-index: 999;
+}
+
